@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 255, 255, 255; /* Blanco */
+  --background-start-rgb: 3, 105, 161; /* Azul oscuro */
+  --background-end-rgb: 56, 189, 248; /* Azul claro */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255; /* Blanco */
+    --background-start-rgb: 21, 32, 43; /* Azul oscuro (modo oscuro) */
+    --background-end-rgb: 56, 189, 248; /* Azul claro */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      rgb(var(--background-start-rgb)),
+      rgb(var(--background-end-rgb))
+    );
+}
+
+/* Utilidad personalizada para texto equilibrado */
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
