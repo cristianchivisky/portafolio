@@ -13,48 +13,46 @@ const skillsData = [
       { name: 'Perseverancia', icon: '/skillIcons/perseverance.svg', description: 'Persistencia y dedicación.' },
       { name: 'Seguridad', icon: '/skillIcons/security.svg', description: 'Confiabilidad y compromiso, asegurando estabilidad y cumplimiento de responsabilidades.' },
       { name: 'Pensamiento crítico', icon: '/skillIcons/critical-thinking.svg', description: 'Habilidad para analizar y evaluar información para la toma de decisiones.' },
-      { name: 'Empatía', icon: '/skillIcons/empathy.svg', description: 'Capacidad para entender y compartir los sentimientos de los demás.' },
-      { name: 'Atención al detalle', icon: '/skillIcons/attention-to-detail.svg', description: 'Capacidad para realizar tareas con precisión y cuidado.' },
     ],
   },
   {
     category: 'Frontend',
     skills: [
-      { name: 'ReactJS', icon: '/skillIcons/react.svg', level: 'Avanzado' },
-      { name: 'Next.js', icon: '/skillIcons/nextjs.svg', level: 'Intermedio' },
-      { name: 'Tailwind CSS', icon: '/skillIcons/tailwindcss.svg', level: 'Avanzado' },
-      { name: 'HTML5', icon: '/skillIcons/html5.svg', level: 'Avanzado' },
-      { name: 'CSS3', icon: '/skillIcons/css.svg', level: 'Avanzado' },
-      { name: 'JavaScript', icon: '/skillIcons/javascript.svg', level: 'Avanzado' },
-      { name: 'TypeScript', icon: '/skillIcons/typescript.svg', level: 'Intermedio' },
-      { name: 'Bootstrap', icon: '/skillIcons/bootstrap.svg', level: 'Intermedio' },
-      { name: 'Webpack', icon: '/skillIcons/webpack.svg', level: 'Intermedio' },
+      { name: 'ReactJS', icon: '/skillIcons/react.svg' },
+      { name: 'Next.js', icon: '/skillIcons/nextjs.svg' },
+      { name: 'Tailwind CSS', icon: '/skillIcons/tailwindcss.svg' },
+      { name: 'HTML5', icon: '/skillIcons/html5.svg' },
+      { name: 'CSS3', icon: '/skillIcons/css.svg' },
+      { name: 'JavaScript', icon: '/skillIcons/javascript.svg' },
+      { name: 'TypeScript', icon: '/skillIcons/typescript.svg' },
+      { name: 'Bootstrap', icon: '/skillIcons/bootstrap.svg' },
+      { name: 'Webpack', icon: '/skillIcons/webpack.svg' },
     ],
   },
   {
     category: 'Backend',
     skills: [
-      { name: 'Node.js', icon: '/skillIcons/nodejs.svg', level: 'Intermedio' },
-      { name: 'GraphQL', icon: '/skillIcons/graphql.svg', level: 'Intermedio' },
-      { name: 'PostgreSQL', icon: '/skillIcons/postgresql.svg', level: 'Intermedio' },
-      { name: 'MongoDB', icon: '/skillIcons/mongoDB.svg', level: 'Intermedio' },
-      { name: 'Flask', icon: '/skillIcons/flask.svg', level: 'Intermedio' },
-      { name: 'Python', icon: '/skillIcons/python.svg', level: 'Intermedio' },
-      { name: 'Java', icon: '/skillIcons/java.svg', level: 'Intermedio' },
-      { name: 'Redis', icon: '/skillIcons/redis.svg', level: 'Básico' }, 
+      { name: 'Node.js', icon: '/skillIcons/nodejs.svg' },
+      { name: 'GraphQL', icon: '/skillIcons/graphql.svg' },
+      { name: 'PostgreSQL', icon: '/skillIcons/postgresql.svg' },
+      { name: 'MongoDB', icon: '/skillIcons/mongoDB.svg' },
+      { name: 'Flask', icon: '/skillIcons/flask.svg' },
+      { name: 'Python', icon: '/skillIcons/python.svg' },
+      { name: 'Java', icon: '/skillIcons/java.svg' },
+      { name: 'Redis', icon: '/skillIcons/redis.svg' }, 
     ],
   },
   {
     category: 'Tools & Platforms',
     skills: [
-      { name: 'Git & GitHub', icon: '/skillIcons/github.svg', level: 'Avanzado' },
-      { name: 'Docker', icon: '/skillIcons/docker.svg', level: 'Intermedio' },
-      { name: 'Figma', icon: '/skillIcons/figma.svg', level: 'Intermedio' },
-      { name: 'Netlify', icon: '/skillIcons/netlify.svg', level: 'Intermedio' },
-      { name: 'Postman', icon: '/skillIcons/postman.svg', level: 'Intermedio' },
-      { name: 'VSCode', icon: '/skillIcons/vscode.svg', level: 'Avanzado' },
-      { name: 'Jira', icon: '/skillIcons/jira.svg', level: 'Intermedio' },
-      { name: 'Linux', icon: '/skillIcons/linux.svg', level: 'Intermedio' },
+      { name: 'Git & GitHub', icon: '/skillIcons/github.svg' },
+      { name: 'Docker', icon: '/skillIcons/docker.svg' },
+      { name: 'Figma', icon: '/skillIcons/figma.svg' },
+      { name: 'Netlify', icon: '/skillIcons/netlify.svg' },
+      { name: 'Postman', icon: '/skillIcons/postman.svg' },
+      { name: 'VSCode', icon: '/skillIcons/vscode.svg' },
+      { name: 'Jira', icon: '/skillIcons/jira.svg' },
+      { name: 'Linux', icon: '/skillIcons/linux.svg' },
     ],
   },
 ];
@@ -77,7 +75,6 @@ const Skills = () => {
                   <div>
                     <span className="font-medium">{skill.name}</span>
                     {skill.description && <p className="text-xs">{skill.description}</p>}
-                    {skill.level && <p className="text-xs">Nivel: {skill.level}</p>}
                   </div>
                 </li>
               ))}
