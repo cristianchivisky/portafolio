@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,10 +19,12 @@ const Navbar = () => {
     <nav className="px-6">
       <div className="max-w-screen-xl mx-auto p-4 flex flex-wrap items-center justify-between">
         <Link href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img
-            src="/aboutMe/logo-ch.svg"
-            alt="logo"
+          <Image
+            src={"/aboutMe/logo-ch.svg"}
+            alt={"logo"}
             className="h-8 w-8 md:h-8 md:w-8 lg:h-10 lg:w-10 object-contain rounded-full border"
+            width={40}
+            height={40}
           />
         </Link>
         <button
