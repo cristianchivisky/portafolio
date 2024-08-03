@@ -3,16 +3,16 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 255, 255, 255; /* Blanco */
-  --background-start-rgb: 3, 105, 161; /* Azul oscuro */
-  --background-end-rgb: 56, 189, 248; /* Azul claro */
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 3, 105, 161;
+  --background-end-rgb: 51, 170, 224; 
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground-rgb: 255, 255, 255; /* Blanco */
-    --background-start-rgb: 21, 32, 43; /* Azul oscuro (modo oscuro) */
-    --background-end-rgb: 56, 189, 248; /* Azul claro */
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 17, 26, 34; 
+    --background-end-rgb: 45, 151, 199;
   }
 }
 

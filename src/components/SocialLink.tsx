@@ -15,7 +15,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, imgSrc, alt, text }) => {
             <Image
             src={imgSrc}
             alt={alt}
-            className="h-4 w-4 md:h-4 md:w-4 lg:h-5 lg:w-5"
+            className="h-5 w-5 md:h-4 md:w-4 lg:h-5 lg:w-5"
             width={20}
             height={20}
             />

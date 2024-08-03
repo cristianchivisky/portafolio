@@ -1,58 +1,48 @@
 const skillsData = [
-    {
-      category: 'Habilidades Blandas',
-      skills: [
-        { name: 'Comunicación', icon: '/skillIcons/communication.svg', description: 'Efectiva comunicación verbal y escrita en equipos.' },
-        { name: 'Trabajo en equipo', icon: '/skillIcons/teamwork.svg', description: 'Colaboración en equipos multidisciplinarios.' },
-        { name: 'Resolución de problemas', icon: '/skillIcons/problem-solving.svg', description: 'Capacidad para encontrar soluciones creativas.' },
-        { name: 'Creatividad', icon: '/skillIcons/creativity.svg', description: 'Innovación en el desarrollo de proyectos.' },
-        { name: 'Gestión del tiempo', icon: '/skillIcons/time-management.svg', description: 'Eficiencia en la organización y cumplimiento de plazos.' },
-        { name: 'Adaptabilidad', icon: '/skillIcons/adaptability.svg', description: 'Flexibilidad ante cambios y nuevos desafíos.' },
-        { name: 'Perseverancia', icon: '/skillIcons/perseverance.svg', description: 'Persistencia y dedicación.' },
-        { name: 'Seguridad', icon: '/skillIcons/security.svg', description: 'Confiabilidad y compromiso, asegurando estabilidad y cumplimiento de responsabilidades.' },
-        { name: 'Pensamiento crítico', icon: '/skillIcons/critical-thinking.svg', description: 'Habilidad para analizar y evaluar información para la toma de decisiones.' },
-      ],
-    },
-    {
-      category: 'Frontend',
-      skills: [
-        { name: 'ReactJS', icon: '/skillIcons/react.svg' },
-        { name: 'Next.js', icon: '/skillIcons/nextjs.svg' },
-        { name: 'Tailwind CSS', icon: '/skillIcons/tailwindcss.svg' },
-        { name: 'HTML5', icon: '/skillIcons/html5.svg' },
-        { name: 'CSS3', icon: '/skillIcons/css.svg' },
-        { name: 'JavaScript', icon: '/skillIcons/javascript.svg' },
-        { name: 'TypeScript', icon: '/skillIcons/typescript.svg' },
-        { name: 'Bootstrap', icon: '/skillIcons/bootstrap.svg' },
-        { name: 'Webpack', icon: '/skillIcons/webpack.svg' },
-      ],
-    },
-    {
-      category: 'Backend',
-      skills: [
-        { name: 'Node.js', icon: '/skillIcons/nodejs.svg' },
-        { name: 'GraphQL', icon: '/skillIcons/graphql.svg' },
-        { name: 'PostgreSQL', icon: '/skillIcons/postgresql.svg' },
-        { name: 'MongoDB', icon: '/skillIcons/mongoDB.svg' },
-        { name: 'Flask', icon: '/skillIcons/flask.svg' },
-        { name: 'Python', icon: '/skillIcons/python.svg' },
-        { name: 'Java', icon: '/skillIcons/java.svg' },
-        { name: 'Redis', icon: '/skillIcons/redis.svg' }, 
-      ],
-    },
-    {
-      category: 'Tools & Platforms',
-      skills: [
-        { name: 'Git & GitHub', icon: '/skillIcons/github.svg' },
-        { name: 'Docker', icon: '/skillIcons/docker.svg' },
-        { name: 'Figma', icon: '/skillIcons/figma.svg' },
-        { name: 'Netlify', icon: '/skillIcons/netlify.svg' },
-        { name: 'Postman', icon: '/skillIcons/postman.svg' },
-        { name: 'VSCode', icon: '/skillIcons/vscode.svg' },
-        { name: 'Jira', icon: '/skillIcons/jira.svg' },
-        { name: 'Linux', icon: '/skillIcons/linux.svg' },
-      ],
-    },
+  {
+    category: 'Habilidades Blandas',
+    skills: [
+      { name: 'Comunicación', icon: '/skillIcons/communication.svg', description: 'Efectiva comunicación verbal y escrita en equipos.' },
+      { name: 'Trabajo en equipo', icon: '/skillIcons/teamwork.svg', description: 'Colaboración en equipos multidisciplinarios.' },
+      { name: 'Gestión del tiempo', icon: '/skillIcons/time-management.svg', description: 'Eficiencia en la organización y cumplimiento de plazos.' },
+      { name: 'Adaptabilidad', icon: '/skillIcons/adaptability.svg', description: 'Flexibilidad ante cambios y nuevos desafíos.' },
+      { name: 'Perseverancia', icon: '/skillIcons/perseverance.svg', description: 'Persistencia y dedicación.' },
+      { name: 'Seguridad', icon: '/skillIcons/security.svg', description: 'Confiabilidad y compromiso, asegurando estabilidad y cumplimiento de responsabilidades.' },
+    ],
+  },
+  {
+    category: 'Frontend',
+    skills: [
+      { name: 'ReactJS', icon: '/skillIcons/react.svg', description: 'Desarrollo de interfaces interactivas y dinámicas utilizando ReactJS.' },
+      { name: 'Next.js', icon: '/skillIcons/nextjs.svg', description: 'Implementación de aplicaciones con renderizado en el servidor para mejorar el rendimiento.' },
+      { name: 'Tailwind CSS', icon: '/skillIcons/tailwindcss.svg', description: 'Diseño eficiente y rápido de interfaces con Tailwind CSS.' },
+      { name: 'JavaScript', icon: '/skillIcons/javascript.svg', description: 'Desarrollo de funcionalidades avanzadas y dinámicas en aplicaciones web.' },
+      { name: 'TypeScript', icon: '/skillIcons/typescript.svg', description: 'Mejora de la robustez del código con tipado estático en aplicaciones complejas.' },
+      { name: 'Node.js', icon: '/skillIcons/nodejs.svg', description: 'Creación de aplicaciones escalables y eficientes utilizando Node.js.' },
+    ],
+  },
+  {
+    category: 'Backend',
+    skills: [
+      { name: 'Flask', icon: '/skillIcons/flask.svg', description: 'Desarrollo de aplicaciones web y APIs eficientes con Flask.' },
+      { name: 'GraphQL', icon: '/skillIcons/graphql.svg', description: 'Optimización de consultas de datos con GraphQL para mejorar la eficiencia.' },
+      { name: 'Python', icon: '/skillIcons/python.svg', description: 'Desarrollo de aplicaciones y soluciones backend utilizando Python.' },
+      { name: 'PostgreSQL', icon: '/skillIcons/postgresql.svg', description: 'Gestión y optimización de bases de datos relacionales con PostgreSQL.' },
+      { name: 'MongoDB', icon: '/skillIcons/mongoDB.svg', description: 'Modelado de datos flexible y eficiente en bases de datos NoSQL con MongoDB.' },
+      { name: 'Redis', icon: '/skillIcons/redis.svg', description: 'Implementación de soluciones de almacenamiento en caché con Redis para mejorar el rendimiento.' },
+    ],
+  },
+  {
+    category: 'Tools & Platforms',
+    skills: [
+      { name: 'Git & GitHub', icon: '/skillIcons/github.svg', description: 'Manejo de versiones y colaboración en proyectos mediante Git y GitHub.' },
+      { name: 'Docker', icon: '/skillIcons/docker.svg', description: 'Creación y gestión de contenedores para aplicaciones con Docker.' },
+      { name: 'Figma', icon: '/skillIcons/figma.svg', description: 'Diseño de prototipos y interfaces de usuario interactivos con Figma.' },
+      { name: 'Postman', icon: '/skillIcons/postman.svg', description: 'Pruebas y desarrollo de APIs para asegurar su funcionalidad con Postman.' },
+      { name: 'Jira', icon: '/skillIcons/jira.svg', description: 'Gestión de proyectos y seguimiento de tareas con Jira.' },
+      { name: 'Linux', icon: '/skillIcons/linux.svg', description: 'Habilidad en administración de sistemas mediante la consola en Linux.' },
+    ],
+  },
 ];
 
 export default skillsData;

@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cristian Chivisky - Portafolio
 
-## Getting Started
+Bienvenido a mi portafolio personal. Este proyecto es una muestra de mis habilidades y experiencia en desarrollo frontend y backend, destacando algunos de mis proyectos y proporcionando información sobre mi formación y trayectoria profesional.
 
-First, run the development server:
+## Instalación
 
+1. Clona el repositorio:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/cristianchivisky/portafolio.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Navega al directorio del proyecto:
+```bash
+cd portafolio
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Instala las dependencias:
+```bash
+npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Uso
 
-## Learn More
+1. Para iniciar en modo de desarrollo, ejecuta: 
+```bash
+npm run dev 
+```
 
-To learn more about Next.js, take a look at the following resources:
+2. Abre tu navegador y visita http://localhost:3000 para ver la aplicación.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contribución
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
 
-## Deploy on Vercel
+1. Haz un fork del proyecto.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Crea una rama para tu feature
+git checkout -b feature/AmazingFeature
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+3. Realiza un commit de tus cambios
+git commit -m 'Add some AmazingFeature'
+
+4. Haz push a la rama
+git push origin feature/AmazingFeature
+
+5. Abre un pull request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
+
+## Contacto
+
+Para preguntas o soporte, por favor contacta a cristian.chivisky@gmail.com.

@@ -16,6 +16,7 @@ const ContactForm: React.FC = () => {
     const [errors, setErrors] = useState<Errors>({});
     const [isSubmitting, setIsSubmitting] = useState(false);
 
+    // Maneja los cambios en los campos del formulario
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { id, value } = e.target;
         setFormValues(prevValues => ({
@@ -24,8 +25,10 @@ const ContactForm: React.FC = () => {
         }));
     };
 
+    // Maneja el envío del formulario
     const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
         e.preventDefault();
+        // Valida los datos del formulario
         const isValid = await validateForm(formValues, setErrors);
         if (isValid) {
             setIsSubmitting(true);
@@ -36,15 +39,18 @@ const ContactForm: React.FC = () => {
                 `${process.env.NEXT_PUBLIC_EMAILJS_USER_ID}`
             )
             .then(() => {
+                // Muestra un mensaje de éxito y limpia el formulario
                 toast.success('Mensaje enviado con éxito!');
                 setFormValues({ name: '', email: '', message: '' });
                 setErrors({});
             })
             .catch(() => {
+                // Muestra un mensaje de error si falla el envío
                 toast.error('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.');
                 setErrors({ submit: 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.' });
             })
             .finally(() => {
+                // Indica que el proceso de envío ha terminado
                 setIsSubmitting(false);
             });
         }
