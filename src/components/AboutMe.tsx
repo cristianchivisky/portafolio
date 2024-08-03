@@ -11,18 +11,17 @@ const AboutMe = () => {
           <Image
             src={"/aboutMe/profile.png"}
             alt={"Mi Foto"}
-            className="profile-img h-40 w-40 lg:h-60 lg:w-60 rounded-full border-4 mb-4 lg:mb-0 transform transition duration-300 hover:scale-105 hover:shadow-2xl"
+            className="profile-img h-40 w-40 lg:h-60 lg:w-60 rounded-full border-4 mt-0 lg:mt-4 mb-4 lg:mb-0 transform transition duration-300 hover:scale-105 hover:shadow-2xl"
             width={240} 
             height={240} 
           />
           <div className="text-center lg:text-left">
             <p className="text-2xl lg:text-3xl font-bold mb-4">¡Hola! Mi nombre es Cristian.</p>
             <p className="text-sm lg:text-base mb-4">
-              Soy un desarrollador entusiasta con experiencia en frontend y backend. Me especializo en tecnologías como ReactJS, Next.js, Tailwind CSS, Node.js, Flask, GraphQL y PostgreSQL. Me gradué como Analista de Sistemas y actualmente estoy cursando el cuarto año de la Licenciatura en Sistemas de Información.
+              Soy un desarrollador apasionado con experiencia en frontend y backend. Me especializo en tecnologías como ReactJS, Next.js, Tailwind CSS, Node.js, Flask, GraphQL y PostgreSQL. Me gradué como Analista de Sistemas y actualmente estoy cursando el cuarto año de la Licenciatura en Sistemas de Información.
             </p>
             <p className="text-sm lg:text-base mb-4">
-              Siempre busco nuevas oportunidades para expandir mis habilidades y conocimientos. Mi capacidad para adaptarme a diferentes entornos y tecnologías me permite contribuir de manera efectiva en equipos ágiles y colaborativos. Estoy comprometido con la excelencia en el desarrollo de software y preparado para enfrentar cualquier desafío en los proyectos en los que participe.
-            </p>
+              Siempre busco nuevas oportunidades para expandir mis habilidades y conocimientos. Mi perseverancia, responsabilidad y compañerismo, junto con mi capacidad para adaptarme a diferentes entornos y tecnologías, me permiten contribuir de manera efectiva en equipos ágiles y colaborativos. Estoy comprometido con la excelencia en el desarrollo de software y preparado para enfrentar cualquier desafío en los proyectos en los que participe.            </p>
             <div className="flex space-x-4 justify-center lg:justify-start">
               {socialLinksData.map((link, index) => (
                 <SocialLink

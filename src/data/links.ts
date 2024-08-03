@@ -1,11 +1,11 @@
 const links = [
     {
       href: "https://www.linkedin.com/in/cristian-chivisky-3186aa242/",
-      name: "Linkedin"
+      name: "LinkedIn"
     },
     {
       href: "https://github.com/cristianchivisky",
-      name: "Github"
+      name: "GitHub"
     },
     {
       href: "mailto:cristian.chivisky@gmail.com",

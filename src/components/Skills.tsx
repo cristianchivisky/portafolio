@@ -8,7 +8,7 @@ const Skills = () => {
     <div className="skills-container max-w-screen-xl mx-auto px-4 py-4">
       <h2 className="text-center text-3xl font-bold mb-4">Habilidades</h2>
       <p className="text-center mb-8 text-lg">
-        A continuación, se presentan mis habilidades agrupadas en diferentes categorías, mostrando las tecnologías y herramientas con las que tengo experiencia.
+        A continuación, presento mis habilidades, tecnologías y herramientas con las que tengo mayor experiencia.
       </p>
       <div className="space-y-8">
         {skillsData.map((category: SkillCategory, index: number) => (

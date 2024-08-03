@@ -15,13 +15,13 @@ const socialLinksData = [
       href: "/aboutMe/cristian-chivisky.pdf",
       imgSrc: "/aboutMe/pdf.svg",
       alt: "Curriculum",
-      text: "Curriculum"
+      text: "Currículum"
     },
     {
       href: "mailto:cristian.chivisky@gmail.com",
       imgSrc: "/aboutMe/correo.svg",
       alt: "Email",
-      text: "Correo"
+      text: "Email"
     }
 ];
 
