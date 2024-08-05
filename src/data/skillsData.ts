@@ -29,7 +29,7 @@ const skillsData = [
       { name: 'Python', icon: '/skillIcons/python.svg', description: 'Desarrollo de aplicaciones y soluciones backend utilizando Python.' },
       { name: 'PostgreSQL', icon: '/skillIcons/postgresql.svg', description: 'Gestión y optimización de bases de datos relacionales con PostgreSQL.' },
       { name: 'MongoDB', icon: '/skillIcons/mongoDB.svg', description: 'Modelado de datos flexible y eficiente en bases de datos NoSQL con MongoDB.' },
-      { name: 'Redis', icon: '/skillIcons/redis.svg', description: 'Implementación de soluciones de almacenamiento en caché con Redis para mejorar el rendimiento.' },
+      { name: 'Redis', icon: '/skillIcons/redis.svg', description: 'Implementación de soluciones de almacenamiento con Redis.' },
     ],
   },
   {
@@ -37,7 +37,7 @@ const skillsData = [
     skills: [
       { name: 'Git & GitHub', icon: '/skillIcons/github.svg', description: 'Manejo de versiones y colaboración en proyectos mediante Git y GitHub.' },
       { name: 'Docker', icon: '/skillIcons/docker.svg', description: 'Creación y gestión de contenedores para aplicaciones con Docker.' },
-      { name: 'Figma', icon: '/skillIcons/figma.svg', description: 'Diseño de prototipos y interfaces de usuario interactivos con Figma.' },
+      { name: 'Figma', icon: '/skillIcons/figma.svg', description: 'Diseño de prototipos e interfaces de usuario interactivas con Figma.' },
       { name: 'Postman', icon: '/skillIcons/postman.svg', description: 'Pruebas y desarrollo de APIs para asegurar su funcionalidad con Postman.' },
       { name: 'Jira', icon: '/skillIcons/jira.svg', description: 'Gestión de proyectos y seguimiento de tareas con Jira.' },
       { name: 'Linux', icon: '/skillIcons/linux.svg', description: 'Habilidad en administración de sistemas mediante la consola en Linux.' },

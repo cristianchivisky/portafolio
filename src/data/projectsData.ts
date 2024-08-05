@@ -9,7 +9,7 @@ const projectsData = [
     {
         title: "Rick and Morty SPA",
         description: "Visualiza información de personajes de Rick and Morty con esta app creada en Webpack, JavaScript y Bootstrap, que permite búsquedas y detalles completos de cada personaje.",
-        deployUrl: "https://6699d68a9dd1e0ad2a104d18--superlative-meerkat-6575c1.netlify.app/",
+        deployUrl: "https://66afddb23cf2b4f33bb520db--resonant-centaur-46cbaf.netlify.app/",
         image: "/imgProjects/rick&morty.png",
         githubUrl: "https://github.com/cristianchivisky/Cientifico-SPA.git"
     },
@@ -30,7 +30,7 @@ const projectsData = [
     {
         title: "Cripto SPA",
         description: "Consulta información actualizada sobre criptomonedas con esta app desarrollada en Webpack y la API de Coinlore, que ofrece listado y detalles con un diseño responsivo.",
-        deployUrl: "https://fabulous-macaron-7373a3.netlify.app/",
+        deployUrl: "https://66b03fad0175d3542c536643--curious-zuccutto-070623.netlify.app/",
         image: "/imgProjects/cripto-spa.png",
         githubUrl: "https://github.com/cristianchivisky/SPA-Coinlore.git"
     },
