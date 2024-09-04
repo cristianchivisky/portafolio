@@ -1,54 +1,60 @@
-# Cristian Chivisky - Portafolio
+# Cristian Chivisky - Portfolio
 
-Bienvenido a mi portafolio personal. Este proyecto es una muestra de mis habilidades y experiencia en desarrollo frontend y backend, destacando algunos de mis proyectos y proporcionando información sobre mi formación y trayectoria profesional.
+Welcome to my personal portfolio. This project showcases my skills and experience in frontend and backend development, highlighting some of my projects and providing information about my education and professional background.
 
-## Instalación
+## Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 ```bash
 git clone https://github.com/cristianchivisky/portafolio.git
 ```
 
-2. Navega al directorio del proyecto:
+2. Navigate to the project directory:
 ```bash
 cd portafolio
 ```
 
-3. Instala las dependencias:
+3. Install the dependencies:
 ```bash
 npm install
 ```
 
-## Uso
+## Usage
 
-1. Para iniciar en modo de desarrollo, ejecuta: 
+1. To start in development mode, run: 
 ```bash
 npm run dev 
 ```
 
-2. Abre tu navegador y visita http://localhost:3000 para ver la aplicación.
+2. Open your browser and visit [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Contribución
+## Contribution
 
-¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
+Contributions are welcome! If you'd like to collaborate, please follow these steps:
 
-1. Haz un fork del proyecto.
+1. Fork the project.
 
-2. Crea una rama para tu feature
+2. Create a branch for your feature:
+```bash
 git checkout -b feature/AmazingFeature
+```
 
-3. Realiza un commit de tus cambios
+3. Commit your changes:
+```bash
 git commit -m 'Add some AmazingFeature'
+```
 
-4. Haz push a la rama
+4. Push the branch:
+```bash
 git push origin feature/AmazingFeature
+```
 
-5. Abre un pull request.
+5. Open a pull request.
 
-## Licencia
+## License
 
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más información.
+This project is licensed under the MIT License. See the LICENSE file for more information.
 
-## Contacto
+## Contact
 
-Para preguntas o soporte, por favor contacta a cristian.chivisky@gmail.com.
+For questions or support, please contact [cristian.chivisky@gmail.com](mailto:cristian.chivisky@gmail.com).

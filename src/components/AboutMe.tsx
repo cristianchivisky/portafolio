@@ -16,12 +16,13 @@ const AboutMe = () => {
             height={240} 
           />
           <div className="text-center lg:text-left">
-            <p className="text-2xl lg:text-3xl font-bold mb-4">¡Hola! Mi nombre es Cristian.</p>
+            <p className="text-2xl lg:text-3xl font-bold mb-4">Hello! My name is Cristian.</p>
             <p className="text-sm lg:text-base mb-4">
-              Soy un desarrollador apasionado con experiencia en frontend y backend. Me especializo en tecnologías como ReactJS, Next.js, Tailwind CSS, Node.js, Flask, GraphQL y PostgreSQL. Me gradué como Analista de Sistemas y actualmente estoy cursando el cuarto año de la Licenciatura en Sistemas de Información.
+              I am a passionate developer with experience in both frontend and backend development. I specialize in technologies such as ReactJS, Next.js, Tailwind CSS, Node.js, Flask, GraphQL, and PostgreSQL. I graduated as a Systems Analyst and am currently in my fourth year of pursuing a Bachelor&apos;s degree in Information Systems.
             </p>
             <p className="text-sm lg:text-base mb-4">
-              Siempre busco nuevas oportunidades para expandir mis habilidades y conocimientos. Mi perseverancia, responsabilidad y compañerismo, junto con mi capacidad para adaptarme a diferentes entornos y tecnologías, me permiten contribuir de manera efectiva en equipos ágiles y colaborativos. Estoy comprometido con la excelencia en el desarrollo de software y preparado para enfrentar cualquier desafío en los proyectos en los que participe.            </p>
+              I am always looking for new opportunities to expand my skills and knowledge. My perseverance, responsibility, and teamwork, along with my ability to adapt to different environments and technologies, enable me to contribute effectively in agile and collaborative teams. I am committed to excellence in software development and prepared to face any challenge in the projects I participate in.
+            </p>
             <div className="flex space-x-4 justify-center lg:justify-start">
               {socialLinksData.map((link, index) => (
                 <SocialLink

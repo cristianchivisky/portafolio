@@ -14,8 +14,8 @@ const socialLinksData = [
     {
       href: "/aboutMe/cristian-chivisky.pdf",
       imgSrc: "/aboutMe/pdf.svg",
-      alt: "Curriculum",
-      text: "Currículum"
+      alt: "Resume",
+      text: "Resume"
     },
     {
       href: "mailto:cristian.chivisky@gmail.com",

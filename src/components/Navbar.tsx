@@ -48,16 +48,16 @@ const Navbar = () => {
         <div className={`w-full md:flex md:w-auto ${isOpen ? 'block' : 'hidden'}`} id="navbar-default">
           <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 shadow-2xl rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0">
             <li>
-              <Link href="/" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40 " >Inicio</Link>
+              <Link href="/" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40 " >Home</Link>
             </li>
             <li>
-              <Link href="/skills" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Habilidades</Link>
+              <Link href="/skills" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Skills</Link>
             </li>
             <li>
-              <Link href="/projects" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Proyectos</Link>
+              <Link href="/projects" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Projects</Link>
             </li>
             <li>
-              <Link href="/contact" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Contacto</Link>
+              <Link href="/contact" onClick={closeMenu} className="block py-2 px-3 rounded md:border-0 md:p-0 hover:opacity-40">Contact</Link>
             </li>
           </ul>
         </div>

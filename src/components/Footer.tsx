@@ -4,10 +4,10 @@ import links from '@/data/links';
 
 const Footer = () => {
   return (
-    <footer className="text-center px-8  lg:px-10">
+    <footer className="text-center px-8 lg:px-10">
         <hr className="my-2 sm:mx-auto " />
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
-          <p className="block text-sm sm:text-center ">© 2024 | Creado por Cristian Chivisky.</p>
+          <p className="block text-sm sm:text-center ">© 2024 | Created by Cristian Chivisky.</p>
           <ul className="flex flex-wrap items-center mt-3 text-sm justify-center font-medium sm:mt-0">
             {links.map((link, index) => (
               <li key={index}>

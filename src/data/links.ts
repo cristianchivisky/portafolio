@@ -13,7 +13,7 @@ const links = [
     },
     {
       href: "/aboutMe/cristian-chivisky.pdf",
-      name: "Currículum",
+      name: "Resume",
       download: "cristian-chivisky.pdf"
     }
 ];

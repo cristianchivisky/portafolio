@@ -6,9 +6,9 @@ import Image from 'next/image';
 const Skills = () => {
   return (
     <div className="skills-container max-w-screen-xl mx-auto px-4 py-4">
-      <h2 className="text-center text-3xl font-bold mb-4">Habilidades</h2>
+      <h2 className="text-center text-3xl font-bold mb-4">Skills</h2>
       <p className="text-center mb-8 text-lg">
-        A continuación, presento mis habilidades, tecnologías y herramientas con las que tengo mayor experiencia.
+        Below are my skills, along with the technologies and tools in which I have the most experience.
       </p>
       <div className="space-y-8">
         {skillsData.map((category: SkillCategory, index: number) => (

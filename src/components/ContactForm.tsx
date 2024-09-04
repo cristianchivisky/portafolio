@@ -1,4 +1,3 @@
-// src/components/ContactForm.js
 import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { toast } from 'react-hot-toast';
@@ -40,14 +39,14 @@ const ContactForm: React.FC = () => {
             )
             .then(() => {
                 // Muestra un mensaje de éxito y limpia el formulario
-                toast.success('Mensaje enviado con éxito!');
+                toast.success('Message sent successfully!');
                 setFormValues({ name: '', email: '', message: '' });
                 setErrors({});
             })
             .catch(() => {
                 // Muestra un mensaje de error si falla el envío
-                toast.error('Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.');
-                setErrors({ submit: 'Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo más tarde.' });
+                toast.error('There was an error sending the message. Please try again later.');
+                setErrors({ submit: 'There was an error sending the message. Please try again later.' });
             })
             .finally(() => {
                 // Indica que el proceso de envío ha terminado
@@ -60,13 +59,13 @@ const ContactForm: React.FC = () => {
         <form onSubmit={handleSubmit} className="shadow-2xl rounded-lg px-8 pt-6 pb-8 mb-4 bg-white">
             <div className="mb-4">
                 <label className="block text-sm font-bold mb-2" htmlFor="name">
-                    Nombre
+                    Name
                 </label>
                 <input
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="name"
                     type="text"
-                    placeholder="Tu nombre"
+                    placeholder="Your name"
                     value={formValues.name}
                     onChange={handleChange}
                 />
@@ -74,12 +73,12 @@ const ContactForm: React.FC = () => {
             </div>
             <div className="mb-4">
                 <label className="block text-sm font-bold mb-2" htmlFor="email">
-                    Correo Electrónico
+                    Email
                 </label>
                 <input
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="email"
-                    placeholder="Tu correo electrónico"
+                    placeholder="Your email"
                     value={formValues.email}
                     onChange={handleChange}
                 />
@@ -87,13 +86,13 @@ const ContactForm: React.FC = () => {
             </div>
             <div className="mb-6">
                 <label className="block text-sm font-bold mb-2" htmlFor="message">
-                    Mensaje
+                    Message
                 </label>
                 <textarea
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="message"
                     rows={5}
-                    placeholder="Tu mensaje"
+                    placeholder="Your message"
                     value={formValues.message}
                     onChange={handleChange}
                 ></textarea>
@@ -105,7 +104,7 @@ const ContactForm: React.FC = () => {
                     type="submit"
                     disabled={isSubmitting}
                 >
-                    {isSubmitting ? 'Enviando...' : 'Enviar'}
+                    {isSubmitting ? 'Sending...' : 'Send'}
                 </button>
             </div>
         </form>
