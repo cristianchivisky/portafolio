@@ -91,7 +91,7 @@ const ContactForm: React.FC = () => {
             </div>
             <div className="flex items-center justify-between">
                 <button
-                    className="py-2 px-4 bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring focus:ring-blue-300"
+                    className="w-full md:w-auto text-center py-2 px-4 bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring focus:ring-blue-300"
                     type="submit"
                     disabled={isSubmitting}
                 >
