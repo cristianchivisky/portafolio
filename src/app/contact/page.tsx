@@ -17,3 +17,5 @@ export default function ContactPage() {
         </div>
     );
 }
+/**      <div className="flex min-h-[90vh] flex-col items-center justify-between p-10 lg:p-20">
+ */

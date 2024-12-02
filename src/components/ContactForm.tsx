@@ -56,11 +56,8 @@ const ContactForm: React.FC = () => {
     };
 
     return (
-        <form onSubmit={handleSubmit} className="shadow-2xl rounded-lg px-8 pt-6 pb-8 mb-4 bg-white">
-            <div className="mb-4">
-                <label className="block text-sm font-bold mb-2" htmlFor="name">
-                    Name
-                </label>
+        <form onSubmit={handleSubmit} className="shadow-2xl rounded-lg px-8 py-8 bg-white">
+            <div className="mb-6">
                 <input
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="name"
@@ -71,10 +68,7 @@ const ContactForm: React.FC = () => {
                 />
                 {errors.name && <p className="text-red-500 text-xs italic">{errors.name}</p>}
             </div>
-            <div className="mb-4">
-                <label className="block text-sm font-bold mb-2" htmlFor="email">
-                    Email
-                </label>
+            <div className="mb-6">
                 <input
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="email"
@@ -84,10 +78,7 @@ const ContactForm: React.FC = () => {
                 />
                 {errors.email && <p className="text-red-500 text-xs italic">{errors.email}</p>}
             </div>
-            <div className="mb-6">
-                <label className="block text-sm font-bold mb-2" htmlFor="message">
-                    Message
-                </label>
+            <div className="mb-4">
                 <textarea
                     className="shadow appearance-none border rounded border-gray-300 text-gray-600 w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline"
                     id="message"
@@ -100,7 +91,7 @@ const ContactForm: React.FC = () => {
             </div>
             <div className="flex items-center justify-between">
                 <button
-                    className="py-2 px-4 bg-blue-500 rounded-lg hover:bg-blue-600 "
+                    className="py-2 px-4 bg-blue-600 rounded-lg hover:bg-blue-700 focus:ring focus:ring-blue-300"
                     type="submit"
                     disabled={isSubmitting}
                 >

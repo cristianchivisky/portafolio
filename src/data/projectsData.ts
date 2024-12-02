@@ -14,13 +14,6 @@ const projectsData = [
         githubUrl: "https://github.com/cristianchivisky/Cientifico-SPA.git"
     },
     {
-        title: "Traffic Violation Manager",
-        description: "Frontend for managing traffic violations, vehicles, and records, developed in Next.js with a Flask and GraphQL backend, providing an intuitive and functional interface.",
-        
-        image: "/imgProjects/gestor-infracciones.png",
-        githubUrl: "https://github.com/cristianchivisky/gestor-infracciones-frontend.git"
-    },
-    {
         title: "Online Bookstore",
         description: "Interface for a book catalog, shopping cart, and wishlist, developed with Next.js and Tailwind CSS, using GraphQL and PostgreSQL for smooth and efficient navigation.",
         
@@ -40,6 +33,13 @@ const projectsData = [
         deployUrl: "https://66ab027de7b35868fd99bbe1--polite-beignet-1a0be4.netlify.app/",
         image: "/imgProjects/patient-manager.png",
         githubUrl: "https://github.com/cristianchivisky/patient-shifts-manager.git"
+    },
+    {
+        title: "Traffic Violation Manager",
+        description: "Frontend for managing traffic violations, vehicles, and records, developed in Next.js with a Flask and GraphQL backend, providing an intuitive and functional interface.",
+        
+        image: "/imgProjects/gestor-infracciones.png",
+        githubUrl: "https://github.com/cristianchivisky/gestor-infracciones-frontend.git"
     },
     {
         title: "Place Management System",

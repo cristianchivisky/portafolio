@@ -4,22 +4,26 @@ import { ProjectCardProps } from '@/types/projectCardProps';
 import Image from 'next/image';
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, deployUrl, githubUrl }) => {
+  const cardLink = deployUrl || githubUrl;
+
   return (
-    <div className="max-w-sm rounded-lg overflow-hidden shadow-2xl transform transition duration-300 hover:scale-105 hover:shadow-2xl">
-      <div className="block">
-        <Image
-          src={image}
-          alt={title}
-          layout="responsive"
-          width={500}
-          height={300}
-          className="w-full h-full object-cover"
-        />
-        <div className="px-4 py-2">
-          <div className="font-semibold text-xl mb-2">{title}</div>
-          <p className="text-base">{description}</p>
+    <div className="max-w-sm sm:max-w-full rounded-lg overflow-hidden shadow-2xl transform transition duration-300 hover:scale-105 hover:shadow-2xl border-white border-2">
+      <Link href={cardLink || '#'} target="_blank" rel="noopener noreferrer">
+        <div className="block">
+          <Image
+            src={image}
+            alt={title}
+            layout="responsive"
+            width={500}
+            height={300}
+            className="w-full h-full object-cover"
+          />
+          <div className="px-4 py-2">
+            <div className="font-semibold text-xl mb-2">{title}</div>
+            <p className="text-base">{description}</p>
+          </div>
         </div>
-      </div>
+      </Link>
       <div className="px-4 py-2 flex justify-start space-x-2">
         {deployUrl && (
           <Link href={deployUrl} target="_blank" rel="noopener noreferrer" >

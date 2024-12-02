@@ -4,7 +4,7 @@ import projectsData from '@/data/projectsData';
 
 const Projects = () => {
   return (
-    <div className="projects-container max-w-screen-xl mx-auto px-4 py-4">
+    <div className="projects-container max-w-screen-xl mx-auto px-4 py-4 lg:pb-20 mb-10">
       <h2 className='text-center text-3xl font-bold mb-4'>Projects</h2>
       <p className="text-center mb-8 text-lg">
         Here you will find a selection of my projects, each including a description and links to explore further.
